@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Meat Loaf",
+    "servingSize": 2,
+    "cookTime": 1,
+    "keywords": [
+      "Main Dish",
+      "Oven"
+    ],
+    "description": "Mix all meat loaf ingredients well and pack into well-greased loaf pan. Mix sauce ingredients together and pour over meat loaf mixture. Bake 1 hour at 350 degrees.",
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "preparation": "lean, for loaf",
+        "measurement": "1 lb"
+      },
+      {
+        "name": "ketchup",
+        "preparation": "for loaf",
+        "measurement": "1/4 cup"
+      },
+      {
+        "name": "egg",
+        "preparation": "for loaf",
+        "measurement": "1"
+      },
+      {
+        "name": "salt",
+        "preparation": "for loaf",
+        "measurement": "1/2 tsp"
+      },
+      {
+        "name": "pepper",
+        "preparation": "for loaf",
+        "measurement": "1/4 tsp"
+      },
+      {
+        "name": "poultry seasoning",
+        "preparation": "for loaf",
+        "measurement": "1/2 tsp"
+      },
+      {
+        "name": "Worchesterhire sauce",
+        "preparation": "for loaf",
+        "measurement": "1 tsp"
+      },
+      {
+        "name": "onion",
+        "preparation": "finely chopped, for loaf",
+        "measurement": "2 tbsp"
+      },
+      {
+        "name": "oatmeal",
+        "preparation": "for loaf",
+        "measurement": "2/3 cup"
+      },
+      {
+        "name": "water",
+        "preparation": "for loaf",
+        "measurement": "1/2 cup"
+      },
+      {
+        "name": "brown sugar",
+        "preparation": "for sauce",
+        "measurement": "3 tbsp"
+      },
+      {
+        "name": "ketchup",
+        "preparation": "for sauce",
+        "measurement": "1/4 cup"
+      },
+      {
+        "name": "nutmeg",
+        "preparation": "for sauce",
+        "measurement": "1/4 tsp"
+      },
+      {
+        "name": "mustard",
+        "preparation": "dried, for sauce",
+        "measurement": "1 tsp"
+      }
+    ]
+  }
+]

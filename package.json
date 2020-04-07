@@ -18,12 +18,15 @@
   },
   "homepage": "https://github.com/jacob-pecile/nanny-recipes#readme",
   "dependencies": {
+    "gotta-go-form": "^1.0.19",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
+    "@types/node": "^13.11.0",
     "parcel-bundler": "^1.12.4",
+    "tslint": "^6.1.1",
     "typescript": "^3.8.3"
   }
 }
