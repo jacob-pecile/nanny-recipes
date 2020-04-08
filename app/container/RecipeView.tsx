@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 import { useRecipe } from '../hooks/useRecipe';
-import RecipeResults from '../components/RecipeResults';
+import RecipeResults from './RecipeResults';
 import SearchForm from '../components/SearchForm';
 
 interface RecipeViewProps {

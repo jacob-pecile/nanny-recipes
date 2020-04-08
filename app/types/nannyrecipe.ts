@@ -1,10 +1,11 @@
 export interface Recipe {
+  id: number;
   name: string;
   servingSize: ServingSize;
   cookTime: number;
   keywords: string[];
   ingredients: Ingredient[];
-  description: string;
+  instructions: string;
 }
 
 export interface Ingredient {

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "start:dev": "parcel index.html --open"
+    "build": "parcel index.html --out-dir ./dist",
+    "start": "parcel index.html --open"
   },
   "repository": {
     "type": "git",
@@ -18,14 +18,17 @@
   },
   "homepage": "https://github.com/jacob-pecile/nanny-recipes#readme",
   "dependencies": {
+    "feather-icons-react": "^0.4.1",
     "gotta-go-form": "^1.0.19",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-table": "^6.10.3",
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@types/node": "^13.11.0",
     "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3",
     "tslint": "^6.1.1",
     "typescript": "^3.8.3"
   }

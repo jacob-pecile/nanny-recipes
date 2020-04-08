@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Meat Loaf",
     "servingSize": 2,
     "cookTime": 1,
@@ -7,7 +8,7 @@
       "Main Dish",
       "Oven"
     ],
-    "description": "Mix all meat loaf ingredients well and pack into well-greased loaf pan. Mix sauce ingredients together and pour over meat loaf mixture. Bake 1 hour at 350 degrees.",
+    "instructions": "Mix all meat loaf ingredients well and pack into well-greased loaf pan. Mix sauce ingredients together and pour over meat loaf mixture. Bake 1 hour at 350 degrees.",
     "ingredients": [
       {
         "name": "ground beef",

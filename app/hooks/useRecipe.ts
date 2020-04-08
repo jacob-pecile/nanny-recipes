@@ -6,9 +6,10 @@ import { servingSizes, keywordOptions } from '../types/constants';
 import { FormDefinition, FormType } from 'gotta-go-form';
 
 const defaultQuery: SearchQuery = {
+    id: 0,
     name: '',
     servingSize: null,
-    description: '',
+    instructions: '',
     cookTime: null,
     keywords: [],
     ingredients: []

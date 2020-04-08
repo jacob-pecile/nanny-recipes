@@ -37,4 +37,5 @@ export default styled(SearchForm)`
     display: flex;
     flex: 1;
     max-width: 40%;
+    border-right: 1px solid #d8d8d8;
 `;
