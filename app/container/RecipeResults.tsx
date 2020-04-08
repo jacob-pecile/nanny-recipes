@@ -15,7 +15,7 @@ const RecipeResults = (props: RecipeResultsProps) => {
     const openCard = (recipedId: number) => () => (setSelectedRecipe(recipedId));
     const closeCard = () => (setSelectedRecipe(null));
 
-    let recipeCards = recipes
+    let recipeCards = recipes.filter(r => selectedRecipe === null || selectedRecipe === r.id)
         .map((recipe, i) =>
             (<RecipeCard key={i}
                 recipe={recipe}

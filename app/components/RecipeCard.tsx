@@ -15,7 +15,7 @@ interface RecipeCardProps {
 
 const ServingSizeLabel = {
     [ServingSize.Small]: 'Small (1-2)',
-    [ServingSize.Medium]: 'Small (3-6)',
+    [ServingSize.Medium]: 'Medium (3-6)',
     [ServingSize.Large]: 'Large (6-8)',
     [ServingSize.Family]: 'Family (8+)'
 };
@@ -47,7 +47,7 @@ const RecipeCard = (props: RecipeCardProps) => {
             </div>
             <RecipeProperty label="Servicing Size" value={ServingSizeLabel[recipe.servingSize]} />
             <RecipeProperty label="Keywords" value={recipe.keywords.join(',')} />
-            <RecipeProperty label="Cook Time" value={recipe.cookTime} />
+            <RecipeProperty label="Cook Time" value={`${recipe.cookTime} hr.`} />
             {selected &&
                 <div className="extended-recipe">
                     <RecipeProperty label="Instructions" value={recipe.instructions} orientation="vertical" />
@@ -66,7 +66,7 @@ export default styled(RecipeCard)`
     padding: 8px;
     background: #d8d8d8;
     border-radius: 3px;
-    cursor: pointer;
+    cursor: ${props => !props.selected && 'pointer'};
     transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
 
     & > .card-title {
@@ -75,6 +75,10 @@ export default styled(RecipeCard)`
         font-size: 20px;
         display: flex;
         justify-content: space-between;
+
+        & > svg{
+            cursor: pointer;
+        }
     }
 
     & > .extended-recipe{

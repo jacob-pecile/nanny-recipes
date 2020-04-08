@@ -81,5 +81,116 @@
         "measurement": "1 tsp"
       }
     ]
+  },
+  {
+    "id": 2,
+    "name": "scalloped Potatoes",
+    "servingSize": 1,
+    "keywords": [
+      "Side",
+      "Veggie"
+    ],
+    "cookTime": 1,
+    "instructions": "Preheat oven to 375F.\n\nPeel 4 or 5 medium potatoes to make 4 cups. Combine four, salt and pepper. Have the onions, butter and hot milk ready.\nArrange alternate layers of potatoes, onions and seasoned flour in a greased 2 quart (2 litre) casserole. Dot with butter\n\nPour hot milk over top and sprinkle with paprika.\n\nBake, covered, in preheated oven for 45 minutes. UNcover and backe for 15 minutes longer or until potatoes are tender and top lightly browned.\n\nIf desired, arrange 2 cups diced, cooked ham between layers",
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "preparation": "thinly sliced",
+        "measurement": "4 cups"
+      },
+      {
+        "name": "flour",
+        "measurement": "2 tbsp"
+      },
+      {
+        "name": "salt",
+        "measurement": "1 1/2 tsp"
+      },
+      {
+        "name": "pepper",
+        "measurement": "1/8 tsp"
+      },
+      {
+        "name": "onion",
+        "preparation": "chopped",
+        "measurement": "1/2 cup"
+      },
+      {
+        "name": "butter or margarine",
+        "measurement": "2 tbsp"
+      },
+      {
+        "name": "milk",
+        "preparation": "hot",
+        "measurement": "1/2 cups"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "turkey lurkey",
+    "servingSize": 3,
+    "keywords": [
+      "Main Dish",
+      "Event"
+    ],
+    "cookTime": "varying",
+    "instructions": "Thaw turkey. Remove any extras from neck and body cavities. Wash turkey well inside and out with water. Stuff cavities with lots of paper towels and pat dry on outside. Allow to sit on more paper towels while you prepare the dressing.\n\nREmove paper towels from cavities! Stuff body cavity. If you have pushed the tail out while washing the turkey, don't forget to put it back through the hole. Place skewers through top and bottom edges of the cavity opening (with the pointed ends down). Lace up the opening using heavy twine. Tie the legs together well. TUrn the turkey over and stuff the neck cavity. Secure flap with a skewer. Tie the wings to the body by placing a piece of twine all around the chest.\n\nGrease the turkey from top to bottom with melted butter(use your hands!) Sprinkle the front of the turkey with salt and pepper and place breast down on a greased v-ed rack. Sprinkle back with salt and pepper. Make a v-ed tent with aluminum foil and place over back of turkey\n\nCook in preheated oven at 375F for 20-25 minutes per pound depending on the size of the bird. The bigger the turkey, the less time it takes per pound.\n\nAbout an hour and half before it's done, remove turkey from oven, take off the foil and turn it breast side up (if you are cooking a smaller turkey, you would turn it over later i.e. about an hour before it's done). Cover drumsticks and neck with foil but leave the breast uncovered. Baste with sauce from pan and return to oven. Baste every fifteen minutes of so. It's done when you can move the drumstick easily up and down.",
+    "ingredients": [
+      {
+        "name": "turkey",
+        "measurement": "10-25 lb"
+      },
+      {
+        "name": "butter",
+        "preparation": "melted"
+      },
+      {
+        "name": "salt and pepper"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bread dressing",
+    "servingSize": 1,
+    "keywords": [
+      "Side"
+    ],
+    "cookTime": "varying",
+    "instructions": "Toss to mix and stuff turkey. This makes enough to stuff 4-5 lb chiken. Double, Triple, etc.. as necessasry fro turkey.",
+    "ingredients": [
+      {
+        "name": "bread cubes",
+        "preparation": "dry",
+        "measurement": "4 cups"
+      },
+      {
+        "names": "onion",
+        "preparation": "chopped",
+        "measurement": "3 tbsp"
+      },
+      {
+        "name": "salt",
+        "measurement": "1 tsp"
+      },
+      {
+        "name": "pepper",
+        "measurement": "1/4 tsp"
+      },
+      {
+        "name": "poultry seasoning",
+        "measurement": "1/4 tsp (or to taste)"
+      },
+      {
+        "name": "savoury",
+        "measurement": "1/4 tsp (or to taste)"
+      },
+      {
+        "name": "butter",
+        "preparation": "melted",
+        "measurement": "1/3 cup"
+      }
+    ]
   }
 ]

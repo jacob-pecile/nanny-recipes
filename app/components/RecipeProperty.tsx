@@ -11,7 +11,7 @@ interface RecipePropertyProps {
 const RecipeProperty = (props: RecipePropertyProps) => (
     <div className={props.className}>
         <div className="property-key">{props.label}:</div>
-        <div className="property-value">{props.value}</div>
+        <pre className="property-value">{props.value}</pre>
     </div>
 );
 
@@ -20,6 +20,7 @@ export default styled(RecipeProperty)`
     flex-direction: ${props => props.orientation === 'vertical' ? 'column' : 'row'};
     justify-content: start;
     font-size: 14px;
+    align-items: ${props => props.orientation === 'vertical' ? 'start' : 'center'};
 
     & > div{
         margin-right: 4px;
@@ -28,5 +29,10 @@ export default styled(RecipeProperty)`
         &.property-key{
             font-weight: 600;
         }
+    }
+
+    & > .property-value{
+        margin: 0;
+        white-space: pre-line;
     }
 `;
