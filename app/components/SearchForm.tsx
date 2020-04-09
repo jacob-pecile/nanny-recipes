@@ -14,8 +14,7 @@ const SearchForm = (props: SearchFormProps) => {
     let { formDefinition, onSearch, className } = props;
 
     let onClick = (result: any) => {
-        console.log(result);
-        onSearch({ ...result });
+        onSearch(result);
     };
 
     let footerActions = [

@@ -12,12 +12,12 @@ interface RecipeViewProps {
 const RecipeView = (props: RecipeViewProps) => {
   let { className } = props;
 
-  let { recipes, formDefinition, setQuery } = useRecipe();
+  let { recipeResult, formDefinition, setQuery } = useRecipe();
 
   return (
     <div className={className}>
       <SearchForm formDefinition={formDefinition} onSearch={setQuery} />
-      <RecipeResults recipes={recipes} />
+      <RecipeResults recipes={recipeResult} />
     </div>
   );
 };

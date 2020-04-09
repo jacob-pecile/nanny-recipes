@@ -2,7 +2,7 @@ export interface Recipe {
   id: number;
   name: string;
   servingSize: ServingSize;
-  cookTime: number;
+  cookTime: number | string;
   keywords: string[];
   ingredients: Ingredient[];
   instructions: string;
@@ -21,4 +21,9 @@ export enum ServingSize {
   Family = 3,
 }
 
-export interface SearchQuery extends Recipe { }
+export interface SearchQuery {
+  servingSize: ServingSize;
+  cookTime: number;
+  keywords: string[];
+  ingredients: string[];
+}

@@ -6,7 +6,7 @@
     "cookTime": 1,
     "keywords": [
       "Main Dish",
-      "Oven"
+      "Baked"
     ],
     "instructions": "Mix all meat loaf ingredients well and pack into well-greased loaf pan. Mix sauce ingredients together and pour over meat loaf mixture. Bake 1 hour at 350 degrees.",
     "ingredients": [
@@ -134,7 +134,7 @@
       "Main Dish",
       "Event"
     ],
-    "cookTime": "varying",
+    "cookTime": "4-6",
     "instructions": "Thaw turkey. Remove any extras from neck and body cavities. Wash turkey well inside and out with water. Stuff cavities with lots of paper towels and pat dry on outside. Allow to sit on more paper towels while you prepare the dressing.\n\nREmove paper towels from cavities! Stuff body cavity. If you have pushed the tail out while washing the turkey, don't forget to put it back through the hole. Place skewers through top and bottom edges of the cavity opening (with the pointed ends down). Lace up the opening using heavy twine. Tie the legs together well. TUrn the turkey over and stuff the neck cavity. Secure flap with a skewer. Tie the wings to the body by placing a piece of twine all around the chest.\n\nGrease the turkey from top to bottom with melted butter(use your hands!) Sprinkle the front of the turkey with salt and pepper and place breast down on a greased v-ed rack. Sprinkle back with salt and pepper. Make a v-ed tent with aluminum foil and place over back of turkey\n\nCook in preheated oven at 375F for 20-25 minutes per pound depending on the size of the bird. The bigger the turkey, the less time it takes per pound.\n\nAbout an hour and half before it's done, remove turkey from oven, take off the foil and turn it breast side up (if you are cooking a smaller turkey, you would turn it over later i.e. about an hour before it's done). Cover drumsticks and neck with foil but leave the breast uncovered. Baste with sauce from pan and return to oven. Baste every fifteen minutes of so. It's done when you can move the drumstick easily up and down.",
     "ingredients": [
       {
@@ -146,7 +146,10 @@
         "preparation": "melted"
       },
       {
-        "name": "salt and pepper"
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
       }
     ]
   },
@@ -166,7 +169,7 @@
         "measurement": "4 cups"
       },
       {
-        "names": "onion",
+        "name": "onion",
         "preparation": "chopped",
         "measurement": "3 tbsp"
       },

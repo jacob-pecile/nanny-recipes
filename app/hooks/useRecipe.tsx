@@ -1,26 +1,24 @@
+import * as React from 'react';
 import { useState, useEffect } from 'react';
 const recipes = require('../../data/nanny-recipes.json');
 import { SearchQuery } from '../types/nannyrecipe';
 import { servingSizes, keywordOptions } from '../types/constants';
-
 import { FormDefinition, FormType } from 'gotta-go-form';
-
-const defaultQuery: SearchQuery = {
-    id: 0,
-    name: '',
-    servingSize: null,
-    instructions: '',
-    cookTime: null,
-    keywords: [],
-    ingredients: []
-};
+import { SearchEngine } from './handlers/searchEngine';
+import IngredientList from '../components/IngredientList';
 
 export const useRecipe = () => {
 
-    const [query, setQuery] = useState(defaultQuery);
+    const [query, setQuery] = useState(null);
+    const [recipeResult, setrecipeResult] = useState(null);
+
+    let searchEngine = new SearchEngine(query, recipes);
 
     useEffect(() => {
-        console.log(query);
+        if (query !== null) {
+            let result = searchEngine.search();
+            setrecipeResult(result);
+        }
     }, [query]);
 
     let formDefinition: FormDefinition = {
@@ -35,6 +33,12 @@ export const useRecipe = () => {
                         options: servingSizes
                     },
                     {
+                        title: 'Cook Time (in hours)',
+                        accessor: 'cookTime',
+                        type: FormType.Input,
+                        properties: { inputProps: { placholder: 'number of hours of cook time', type: 'number' } }
+                    },
+                    {
                         title: 'Key Words',
                         accessor: 'keywords',
                         type: FormType.DropDown,
@@ -42,15 +46,16 @@ export const useRecipe = () => {
                         properties: { isMulti: true }
                     },
                     {
-                        title: 'Cook Time',
-                        accessor: 'cookTime',
-                        type: FormType.Input,
-                        properties: { inputProps: { placholder: 'number of hours of cook time', type: 'number' } }
+                        title: 'Ingredient List',
+                        accessor: 'ingredients',
+                        type: FormType.Custom,
+                        value: [],
+                        customComponent: field => <IngredientList field={field} />
                     }
                 ]
             }
         ]
     };
 
-    return { recipes, formDefinition, setQuery };
+    return { recipeResult, formDefinition, setQuery };
 };

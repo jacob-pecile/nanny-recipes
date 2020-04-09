@@ -11,11 +11,17 @@ interface RecipeResultsProps {
 const RecipeResults = (props: RecipeResultsProps) => {
     let { className, recipes } = props;
 
+    if (recipes !== null && recipes.length === 0) {
+        return <div className={`${className} empty-message`}>
+            There are no recipes that match that query
+                </div>;
+    }
+
     const [selectedRecipe, setSelectedRecipe] = React.useState(null);
     const openCard = (recipedId: number) => () => (setSelectedRecipe(recipedId));
     const closeCard = () => (setSelectedRecipe(null));
 
-    let recipeCards = recipes.filter(r => selectedRecipe === null || selectedRecipe === r.id)
+    let recipeCards = recipes && recipes.filter(r => selectedRecipe === null || selectedRecipe === r.id)
         .map((recipe, i) =>
             (<RecipeCard key={i}
                 recipe={recipe}
@@ -36,4 +42,10 @@ export default styled(RecipeResults)`
     flex: 2;
     flex-direction: column;
     overflow-y: auto;
+
+    &.empty-message{
+        font-size: 24px;
+        margin-top: 8px;
+        align-items: center;
+    }
 `;
