@@ -19,7 +19,7 @@
   "homepage": "https://github.com/jacob-pecile/nanny-recipes#readme",
   "dependencies": {
     "feather-icons-react": "^0.4.1",
-    "gotta-go-form": "^1.0.20",
+    "gotta-go-form": "^1.0.21",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-table": "^6.10.3",

@@ -30,7 +30,8 @@ export const useRecipe = () => {
                         title: 'Serving Size',
                         accessor: 'servingSize',
                         type: FormType.DropDown,
-                        options: servingSizes
+                        options: servingSizes,
+                        properties: { isClearable: true }
                     },
                     {
                         title: 'Cook Time (in hours)',
