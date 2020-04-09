@@ -84,7 +84,7 @@
   },
   {
     "id": 2,
-    "name": "scalloped Potatoes",
+    "name": "Scalloped Potatoes",
     "servingSize": 1,
     "keywords": [
       "Side",
@@ -128,7 +128,7 @@
   },
   {
     "id": 3,
-    "name": "turkey lurkey",
+    "name": "Turkey Lurkey",
     "servingSize": 3,
     "keywords": [
       "Main Dish",
@@ -155,7 +155,7 @@
   },
   {
     "id": 4,
-    "name": "Bread dressing",
+    "name": "Bread Dressing",
     "servingSize": 1,
     "keywords": [
       "Side"
@@ -193,6 +193,437 @@
         "name": "butter",
         "preparation": "melted",
         "measurement": "1/3 cup"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Gravy",
+    "servingSize": 1,
+    "cookTime": 0.5,
+    "keywords": [
+      "Sauce"
+    ],
+    "instructions": "Remove the fat from the top of the drippings by tipping the pan and spooning it off.This is a little tedious, but necessary.\n\nAdd enough water to give you the amount of gravy you want. Be careful you don't water it down too much. You can tell by the colur.\n\nPut pan, with drippings, on stove and bring to a boil. Add salt and pepper to taste.\n\nMix either corn starch or flour with enoughwater to make it thick but runny. You'll need approximately 3 heaping soup spoons of corn staarch or 4 of the flour.If you're using corn starch, you can mix it with a spoon. If you're using flour, it mixes better if you shake it in a jar with a lid. Gradually add the mixture to the drippings in the pan, stirring constantly and rapidly with a wire whip. You may not need to use it all or you may need a little more. The corn starch rarely lumps, but you have to be quite careful if you are using flour. If your gravy does lump, just pour it through a sieve. When the gravy is the right consistency, turn the heat down to low and cook a few minutes more, stirring frequently.",
+    "ingredients": [
+      {
+        "name": "turkey",
+        "preparation": "drippings from (can also be from a roast)"
+      },
+      {
+        "name": "corn starch",
+        "measurement": "3-4 soupspoons"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Beet Stew",
+    "servingSize": 2,
+    "cookTime": 2.5,
+    "keywords": [
+      "Main Dish",
+      "OvenTop"
+    ],
+    "instructions": "Thoroughly brown meat on all sides in hot oil, turning often. Add water, lemon juice, Worcestershire sauce, whole garlic, sliced onion, bay leaves, and seasonings. Cover an simmer (don't boil) for 2 hours, stirring occasionally to keep from sticking. REmove bay leaves and garlic.\n\nAdd cut up vegetables (you can use anything you like). Cover and cook for about 30 minutes or until vegetables are done. Thicken with corn starch mixed in water and serve.",
+    "ingredients": [
+      {
+        "name": "stewing beef",
+        "preparation": "cut in 1 1/2\" cubes",
+        "measurement": "2 lbs"
+      },
+      {
+        "name": "oil",
+        "measurement": "2 tbsp"
+      },
+      {
+        "name": "water",
+        "preparation": "boiling",
+        "measurement": "4 cups"
+      },
+      {
+        "name": "lemon juice",
+        "measurement": "1 tbsp"
+      },
+      {
+        "name": "worchestershire sauce",
+        "measurement": "1 tsp"
+      },
+      {
+        "name": "garlic",
+        "measurement": "1 clove"
+      },
+      {
+        "name": "onion",
+        "preparation": "medium sized, sliced",
+        "measurement": "1"
+      },
+      {
+        "name": "bay leaves",
+        "measurement": "1-2"
+      },
+      {
+        "name": "salt",
+        "measurement": "1 tbsp"
+      },
+      {
+        "name": "sugar",
+        "measurement": "1 tsp"
+      },
+      {
+        "name": "pepper",
+        "measurement": "1/2 tsp"
+      },
+      {
+        "name": "paprika",
+        "measurement": "1/2 tsp"
+      },
+      {
+        "name": "allspice",
+        "measurement": "1 dash"
+      },
+      {
+        "name": "vegetables",
+        "preparation": "carrots or potatoes"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "chile con carne",
+    "servingSize": 2,
+    "keywords": [
+      "Main Dish",
+      "OvenTop"
+    ],
+    "cookTime": 0.5,
+    "instructions": "Fry meat and half the onion (diced) until brown. SPrinkle with salt. Add tomatoes (with juice), tomato soup, hlaf the diced onion and diced green pepper. Simmer until onion and pepper are cooked. Add beans (juice, too) and stir, adding salt and chili powder. Simmer at least 20 minutes",
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "preparation": "lean",
+        "measurement": "1 lb"
+      },
+      {
+        "name": "onion",
+        "preparation": "large, diced",
+        "measurement": "1"
+      },
+      {
+        "name": "chili powder",
+        "measurement": "1 tsp"
+      },
+      {
+        "name": "tomatoes",
+        "measurement": "19 oz. can"
+      },
+      {
+        "name": "kidney beans",
+        "measurement": "2 14 oz. cans"
+      },
+      {
+        "name": "green pepper",
+        "measurement": "1"
+      },
+      {
+        "name": "tomato soup",
+        "measurement": "1 can"
+      },
+      {
+        "name": "salt",
+        "measurement": "1/2 tsp"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Moffatt Seafood Chowder",
+    "servingSize": 1,
+    "cookTime": 0.5,
+    "keywords": [
+      "OvenTop",
+      "Seafood"
+    ],
+    "instructions": "If fish is frozen-thaw.\n\nIn large pan, cook onion in margarine until tender but not brown. Add cubed potatoes, water, fish and sprinkle with salt and pepper. Bring to boil and cook over low heat until potatoes are tender and fish flakes easily...about 15-20 minutes. Stir gently to break fish into bite size pieces. Combine milk and evaporated milk. Stir into flour until smooth and add all to fish.Cook over low until heated through. DON'T BOIL!",
+    "ingredients": [
+      {
+        "name": "haddock",
+        "preparation": "can be other fish",
+        "measurement": "2 lbs"
+      },
+      {
+        "name": "onion",
+        "preparation": "chopped",
+        "measurement": "1 cup"
+      },
+      {
+        "name": "margarine",
+        "measurement": "1 tbsp"
+      },
+      {
+        "name": "potatoes",
+        "preparation": "sbout 6 peeled, or cubed",
+        "measurement": "4 cups"
+      },
+      {
+        "name": "water",
+        "measurement": "2 cups"
+      },
+      {
+        "name": "salt",
+        "measurement": "2 tsp"
+      },
+      {
+        "name": "pepper",
+        "measurement": "1/4 tsp"
+      },
+      {
+        "name": "milk",
+        "measurement": "2 cups"
+      },
+      {
+        "name": "evaporated milk",
+        "measurement": "14 oz. can"
+      },
+      {
+        "name": "flour",
+        "measurement": "2 tbsp"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "baked pork chops",
+    "keywords": [
+      "Main Dish",
+      "Baked",
+      "OvenTop"
+    ],
+    "cookTime": 1,
+    "servingSize": 2,
+    "instructions": "Dredge pork chops in seasoned flour (or put flour in bag and shake with one or two pork chops at a time). Heat oil in frying pan. Brown pork chops on both sides. Place in casserole dish and top each chop with lemon slice (or use a tsp of lemon juice). Combine ketchup, water and brown sugar. Pour mixture around chops. Cover and bake in 350 degree oven for 30 minutes. Uncover and bake for 20 to 30 minutes more.",
+    "ingredients": [
+      {
+        "name": "pork chops",
+        "prepartaion": "preferably loin",
+        "measurement": "6"
+      },
+      {
+        "name": "seasoned flour",
+        "prepartaion": "flour with salt, pepper, paprika, and celery seed",
+        "measurement": "6"
+      },
+      {
+        "name": "oil",
+        "measurement": "2 tbsp"
+      },
+      {
+        "name": "lemon slices",
+        "measurement": "6"
+      },
+      {
+        "name": "ketchup",
+        "measurement": "2/3 cup"
+      },
+      {
+        "name": "water",
+        "measurement": "2/3 cup"
+      },
+      {
+        "name": "brown sugar",
+        "measurement": "3 tbsp"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "wiener bean pot",
+    "servingSize": 2,
+    "keywords": [
+      "Main Dish",
+      "Baked"
+    ],
+    "cookTime": 1,
+    "instructions": "Combine ingredients in greased 2 quart casserole dish or bean pot. Bake uncovered at 350 degrees about 1 hour",
+    "ingredients": [
+      {
+        "name": "pork and beans",
+        "measurement": "2 19 oz. cans"
+      },
+      {
+        "name": "onion soup mix",
+        "measurement": "1 envelope"
+      },
+      {
+        "name": "ketchup",
+        "measurement": "1/3 cup"
+      },
+      {
+        "name": "water",
+        "measurement": "1/4 cup"
+      },
+      {
+        "name": "brown sugar",
+        "measurement": "2 tbsp"
+      },
+      {
+        "name": "mustard",
+        "preparation": "prepared",
+        "measurement": "1 tbsp"
+      },
+      {
+        "name": "weiners",
+        "preparation": "sliced",
+        "measurement": "1 lb"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "lasagna",
+    "servingSize": 3,
+    "keywords": [
+      "Main Dish",
+      "Baked"
+    ],
+    "cookTime": 1.5,
+    "instructions": "Brown meat slowly; spoon off excess fat. Add next 6 ingredients. Simmer uncovered 30 minutes to blend flavours, stirring occasionally.\n\nCook noodles in boiling salted water until tender. Drain and rinse in cold water. Meanwhile, combine cottage cheese with eggs, seasonings and Parmesan cheese.\n\nPlace half the noodles in a greases 9x13\" pan. SPread half the cottage cheese mixture over. Add half the mozzarella cheese and half the meat sauce. REpeat layers.\n\nBake at 375F degree for 30 minutes. Garnish with triangles of Mozzarella cheese. Let stand 10 to 15 minutes before cutting in squares...filling will set slightly.",
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "preparation": "lean",
+        "measurement": "1 lb"
+      },
+      {
+        "name": "garlic",
+        "preparation": "minced",
+        "measurement": "1 clove"
+      },
+      {
+        "name": "parsley flakes",
+        "measurement": "1 tbsp"
+      },
+      {
+        "name": "basil",
+        "measurement": "1 tbsp"
+      },
+      {
+        "name": "salt",
+        "measurement": "1 tsp"
+      },
+      {
+        "name": "tomatoes with juice",
+        "preparation": "canned",
+        "measurement": "2 cups"
+      },
+      {
+        "name": "tomato paste",
+        "measurement": "2 6 oz. cans"
+      },
+      {
+        "name": "lasagna noodles",
+        "preparation": "wide",
+        "measurement": "10 oz."
+      },
+      {
+        "name": "cottage cheese",
+        "preparation": "cream-style",
+        "measurement": "3 cups"
+      },
+      {
+        "name": "eggs",
+        "preparation": "beaten",
+        "measurement": "2"
+      },
+      {
+        "name": "salt",
+        "measurement": "1/2 tsp"
+      },
+      {
+        "name": "pepper",
+        "measurement": "1/2 tsp"
+      },
+      {
+        "name": "parsley flakes",
+        "measurement": "2 tbsp"
+      },
+      {
+        "name": "parmesan cheese",
+        "preparation": "grated",
+        "measurement": "1/2 cup"
+      },
+      {
+        "name": "mozzarella cheese",
+        "preparation": "thinly sliced",
+        "measurement": "1 lb"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Dad's Caesar Salad",
+    "servingSize": 2,
+    "cookTime": 0.25,
+    "keywords": [
+      "Veggie",
+      "Side"
+    ],
+    "instructions": "Wash lettuce. Roll in paper towels or clean dish towel and cool in fridge. Break up by hand.\n\nMin anchovies and garlic in bottom of large (preferably wooden) salad bowl. Add oil, lemon juice, egg yolk, salt nd pepper to taste, 2 tbsp of the parmesan cheese, dry mustard and tobasco. Mix well. Add lettuce and toss to coat lettuce. Top with 4 tbsp parmesan cheese and croutons.",
+    "ingredients": [
+      {
+        "name": "anchovies",
+        "preparation": "finely mashed",
+        "measurement": "3-4"
+      },
+      {
+        "name": "garlic",
+        "preparation": "finely mashed",
+        "measurement": "1-2 cloves"
+      },
+      {
+        "name": "olive oil",
+        "measurement": "4 tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "measurement": "3 tbsp"
+      },
+      {
+        "name": "egg yolk",
+        "measurement": "1"
+      },
+      {
+        "name": "parmesan cheese",
+        "preparation": "grated",
+        "measurement": "6 tbsp"
+      },
+      {
+        "name": "mustard",
+        "preparation": "dry",
+        "measurement": "1/2 tsp"
+      },
+      {
+        "name": "tobasco sauce",
+        "measurement": "2 drops"
+      },
+      {
+        "name": "croutons",
+        "measurement": "1/2 cup"
+      },
+      {
+        "name": "romaine lettuce"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
       }
     ]
   }

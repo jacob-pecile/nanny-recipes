@@ -30,5 +30,7 @@ export const keywordOptions = [
     'Toasted',
     'Veggie',
     'Long Lasting',
-    'Event'
+    'Event',
+    'Sauce',
+    'Seafood'
 ];
